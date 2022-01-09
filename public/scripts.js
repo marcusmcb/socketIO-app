@@ -1,5 +1,5 @@
-const socket = io('http://localhost:8000')
-const socket2 = io('http://localhost:8000/admin')
+const socket = io.connect('http://localhost:8000')
+const socket2 = io.connect('http://localhost:8000/admin')
 
 socket.on('connect', () => {
   {
