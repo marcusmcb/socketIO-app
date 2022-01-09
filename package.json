@@ -9,6 +9,8 @@
   },
   "keywords": [
     "example",
+    "socketIO",
+    "node",
     "heroku"
   ],
   "author": "Marcus McBride",
