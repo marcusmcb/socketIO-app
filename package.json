@@ -1,16 +1,23 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "SocketIO Node Chat App",
   "main": "chat.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon chat.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Marcus McBride",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
     "socket.io": "^4.4.1"
+  },
+  "engines": {
+    "node": "16.6.2"
   }
 }
