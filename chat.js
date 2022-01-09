@@ -1,7 +1,8 @@
 const express = require('express')
-const app = express()
 const socketio = require('socket.io')
 const cors = require('cors')
+
+const app = express()
 
 app.use(cors())
 app.use(express.static(__dirname + '/public'))
