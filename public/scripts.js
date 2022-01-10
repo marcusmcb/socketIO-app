@@ -1,6 +1,8 @@
 const socket = io.connect('/')
 const socket2 = io.connect('/admin')
 
+// add logic to add username, store as local instance var, and send with chat data
+
 socket.on('connect', () => {
   {
     console.log(socket.id)
